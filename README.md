@@ -12,7 +12,7 @@ The challenge is divided into two parts:
 1) A host page
 2) An iFramed chat button
 
-The client page has a `ColorPicker` and `ChatBotIFrame`. When a user selects a color, the chat button color should change in real-time (this is to say there should be no perceptible delay). When you start the application you will notice that the user can pick a color, but nothing happens.
+The host page has a `ColorPicker` and `ChatBotIFrame`. When a user selects a color, the chat button color should change in real-time (this is to say there should be no perceptible delay). When you start the application you will notice that the user can pick a color, but nothing happens.
 
 ## Objectives
 Your challenge is as follows:
