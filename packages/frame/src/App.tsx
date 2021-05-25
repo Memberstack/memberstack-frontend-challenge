@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <span className="chat-icon">
+      <div className="chat-icon">
         <img src={logo} className="chat-icon-image" alt="logo" />
-      </span>
+      </div>
     </div>
   );
 }

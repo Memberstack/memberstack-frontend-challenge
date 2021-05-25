@@ -1,27 +1,18 @@
-import { useRef } from "react";
+import ColorPicker from "./components/ColorPicker";
+import ChatBotIFrame from "./components/ChatBotIFrame";
 import './App.css';
 
-function App() {
-  const iframeEl = useRef<HTMLIFrameElement>(null);
-
+const App = () => {
   const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    // Handle color change
   };
 
   return (
     <>
-      <input
-        type="color"
+      <ColorPicker
         value="#e66465"
         onChange={handleColorChange}
       />
-      <iframe
-        ref={iframeEl}
-        frameBorder="0"
-        title="Chat bot"
-        className="chatbot-iframe"
-        src="http://localhost:3002/"
-      />
+      <ChatBotIFrame />
     </>
   );
 }
