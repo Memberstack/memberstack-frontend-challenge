@@ -1,7 +1,7 @@
 # Memberstack Frontend Challenge
 
 ## Preface
-Hello! 👋 We're excited to be sending you **Memberstack's Frontend Challenge.** Before we get into what you'll be building we want to it by saying:
+Hello! 👋 We're excited to be sending you **Memberstack's Frontend Challenge.** Before we get into what you'll be building, we want to start by saying:
 
 - **This code is yours**. It will be kept private and only ever used for evaluation purposes.
 - **Your time is valuable**. We don't expect you to work on this for more than **2 hours**.
