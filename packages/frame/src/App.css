@@ -3,9 +3,10 @@
   display: inline-flex;
   padding: 10px;
   background-color: #cfeaf7;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border: 1px solid rgba(81,92,93,0.1);
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .chat-icon-image {
