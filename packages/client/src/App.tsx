@@ -2,16 +2,27 @@ import { useRef } from "react";
 import './App.css';
 
 function App() {
-  const iframeEl = useRef(null);
+  const iframeEl = useRef<HTMLIFrameElement>(null);
+
+  const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    // Handle color change
+  };
 
   return (
-    <iframe
-      ref={iframeEl}
-      className="chatbot-iframe"
-      title="Chat bot"
-      frameBorder="0"
-      src="http://localhost:3002/"
-    />
+    <>
+      <input
+        type="color"
+        value="#e66465"
+        onChange={handleColorChange}
+      />
+      <iframe
+        ref={iframeEl}
+        frameBorder="0"
+        title="Chat bot"
+        className="chatbot-iframe"
+        src="http://localhost:3002/"
+      />
+    </>
   );
 }
 
