@@ -1,7 +1,7 @@
 # Memberstack Frontend Challenge
 
 ## Preface
-Hello! 👋 We're excited to be sending you **Memberstack's Frontend Challenge.** Before we get into what you'll be building we want to set some expectations:
+Hello! 👋 We're excited to be sending you **Memberstack's Frontend Challenge.** Before we get into what you'll be building, we want to start by saying:
 
 - **This code is yours**. It will be kept private and only ever used for evaluation purposes.
 - **Your time is valuable**. We don't expect you to work on this for more than **2 hours**.
@@ -12,7 +12,7 @@ The challenge is divided into two parts:
 1) A host page
 2) An iFramed chat button
 
-The client page has a `ColorPicker` and `ChatBotIFrame`. When a user selects a color, the chat button color should change in real-time (this is to say there should be no perceptible delay). When you start the application you will notice that the user can pick a color, but nothing happens.
+The host page has a `ColorPicker` and `ChatBotIFrame`. When a user selects a color, the chat button color should change in real-time (this is to say there should be no perceptible delay). When you start the application you will notice that the user can pick a color, but nothing happens.
 
 ## Objectives
 Your challenge is as follows:
