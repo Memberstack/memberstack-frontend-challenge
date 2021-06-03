@@ -21,7 +21,7 @@ Your challenge is as follows:
 
 **Bonus:** The project styles are currently only using vanilla CSS. Implement your preferred tool for styling, and make one design improvement to the website.
 
-**Note:** If you run out of time, that's okay! We have left a `NOTES.md` file for you to provide an explanation for your solution, as well as give you an opportunity to tell us about what else you would built if you had more time.
+**Note:** If you run out of time, that's okay! We have left a `NOTES.md` file for you to provide an explanation for your solution, as well as give you an opportunity to tell us about what else you would have built if you had more time.
 
 ## Getting started
 Before you begin, please fork this project. If you choose to keep the repository prviate, please remember to invite a Memberstack team member as a collaborator.
