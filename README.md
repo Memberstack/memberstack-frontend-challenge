@@ -39,7 +39,7 @@ yarn start
 ```
 
 ## Assessment
-Your code will be evaluated based:
+Your code will be evaluated based on:
 - System architecture
 - Code quality
 - Notes explanation
