@@ -5,7 +5,7 @@ Hello! 👋 We're excited to be sending you **Memberstack's Frontend Challenge.*
 
 - **This code is yours**. It will be kept private and only ever used for evaluation purposes.
 - **Your time is valuable**. We don't expect you to work on this for more than **2 hours**.
-- **We're here to help**. If you're stuck or need clarification, please don't hesistate to reach out.
+- **We're here to help**. If you're stuck or need clarification, please don't hesistate to reach out. You can email nic@memberstack.com with "Frontend Coding Challenge" in the subject line.
 
 ## What you'll be building
 The challenge is divided into two parts:
