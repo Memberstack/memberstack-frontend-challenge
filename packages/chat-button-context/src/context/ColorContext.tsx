@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 interface IColorContext {
   color: string;
@@ -8,7 +9,7 @@ interface IColorContext {
 export const ColorContext = React.createContext<Partial<IColorContext>>({});
 
 export const ColorProvider = ({ children }: any) => {
-  const [color, setColor] = React.useState('#fff');
+  const [color, setColor] = useLocalStorage('color', '#ccc');
 
   return (
     <ColorContext.Provider

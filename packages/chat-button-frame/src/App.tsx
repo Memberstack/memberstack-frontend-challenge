@@ -8,9 +8,6 @@ function App() {
   const { color } = React.useContext(ColorContext);
 
   console.log('color:::: ', color);
-  React.useEffect(() => {
-    console.log('color:::: ', color);
-  }, [color]);
 
   return (
     <div className="App">
