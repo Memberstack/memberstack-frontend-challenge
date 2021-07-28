@@ -3,3 +3,7 @@
   bottom: 20px;
   right: 20px;
 }
+
+iframe.chatbot-iframe > .chat-icon {
+  background-color: black !important;
+}

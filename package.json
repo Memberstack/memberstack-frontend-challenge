@@ -1,11 +1,29 @@
 {
   "name": "root",
   "private": true,
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  },
   "scripts": {
     "start": "lerna run start",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "preconstruct dev",
+    "build": "preconstruct build",
+    "release": "yarn build && lerna publish"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-dynamic-import": "7.13.8",
+    "@babel/plugin-proposal-optional-chaining": "7.13.12",
+    "@babel/plugin-transform-react-jsx-development": "7.12.17",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@preconstruct/cli": "2.0.7",
+    "lerna": "4.0.0",
+    "typescript": "4.3.5"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*",
+      "!packages/chat-button-frame",
+      "!packages/host"
+    ]
   }
 }

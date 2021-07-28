@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ColorProvider } from 'chat-button-context';
 
-ReactDOM.render(
-  <React.StrictMode>
+render(
+  <ColorProvider>
     <App />
-  </React.StrictMode>,
+  </ColorProvider>,
   document.getElementById('root')
 );
 
