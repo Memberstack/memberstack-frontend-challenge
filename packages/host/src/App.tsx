@@ -1,7 +1,7 @@
 import ColorPicker from "./components/ColorPicker";
 import ChatBotIFrame from "./components/ChatBotIFrame";
-import './App.css';
 import { useEffect, useState } from "react";
+import './App.css';
 
 const App = () => {
   const [color, setColor] = useState('');

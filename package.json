@@ -8,5 +8,7 @@
     "start": "lerna run start",
     "bootstrap": "lerna bootstrap"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2"
+  }
 }
