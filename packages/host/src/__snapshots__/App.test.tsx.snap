@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App sanity matches snapshot 1`] = `
+<div
+  class="sc-gtsrHT ismbld"
+>
+  <main
+    class="sc-dlnjwi gxTIdd"
+  >
+    <div
+      class="sc-hKFxyN huoWko"
+    >
+      <iframe
+        class="chatbot-iframe"
+        frameborder="0"
+        src="http://localhost:3002/"
+        title="Chat bot"
+      />
+    </div>
+    <div
+      class="sc-eCApnc hgCFrt"
+    >
+      <h1
+        class="sc-jSFjdj gxeEdc"
+      >
+        ColorPicker Demo Challenge
+      </h1>
+      <p
+        class="sc-gKAaRy kdDXpC"
+      >
+        Select a color from the ColorPicker and watch the chatbox icon change
+      </p>
+      <input
+        class="sc-bdnxRM cAjHbq"
+        data-testid="color-test"
+        type="color"
+        value="#e66465"
+      />
+    </div>
+  </main>
+  <footer
+    class="sc-iCoGMd cGOaZn"
+  >
+    <nav
+      class="sc-fujyAs bvOCsI"
+    >
+      <a
+        class="sc-pNWdM bXhOie"
+        href="https://github.com/clinton-slice/memberstack-frontend-challenge"
+      >
+        Check the code out on GitHub
+      </a>
+    </nav>
+  </footer>
+</div>
+`;
