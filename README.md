@@ -24,7 +24,7 @@ Your challenge is as follows:
 **Note:** If you run out of time, that's okay! We have left a `NOTES.md` file for you to provide an explanation for your solution, as well as give you an opportunity to tell us about what else you would have built if you had more time.
 
 ## Getting started
-Before you begin, please fork this project and keep private. For us to review your submission you will need to invite the following Memberstack team members as collaborators: ` datori`, and `tbell511`.
+Before you begin, please fork this project and keep private. For us to review your submission you will need to invite the following Memberstack team members as collaborators: ` datori` and `tbell511`.
 
 This project uses [Lerna monorepos](https://github.com/lerna/lerna) to manage two React applications. To start the application simply run:
 
