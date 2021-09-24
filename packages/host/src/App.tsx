@@ -1,18 +1,32 @@
 import ColorPicker from "./components/ColorPicker";
 import ChatBotIFrame from "./components/ChatBotIFrame";
+import { useEffect, useState } from "react";
 import './App.css';
 
 const App = () => {
+  const [color, setColor] = useState('');
+  
   const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedColor = e.target.value;
+    setColor(selectedColor);
+    window.sessionStorage.setItem('color', selectedColor);
   };
+
+  useEffect(() => {
+    const storedColor = window.sessionStorage.getItem('color');
+    const colorToSet = storedColor ?? '#e66465';
+
+    setColor(colorToSet);
+  }, [])
+
 
   return (
     <>
       <ColorPicker
-        value="#e66465"
+        value={color}
         onChange={handleColorChange}
       />
-      <ChatBotIFrame />
+      <ChatBotIFrame color={color}/>
     </>
   );
 }
