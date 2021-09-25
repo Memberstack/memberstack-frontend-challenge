@@ -1,10 +1,14 @@
-export const ChatBotIFrame = () => (
-  <iframe
+interface ChatBotIFrameProps {
+  src: string;
+}
+
+export const ChatBotIFrame = ({src} : ChatBotIFrameProps) => {
+  return ( <iframe
     frameBorder="0"
     title="Chat bot"
     className="chatbot-iframe"
-    src="http://localhost:3002/"
-  />
-);
+    src={src}
+  />)
+};
 
 export default ChatBotIFrame;
